@@ -1,32 +1,10 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    <h1> Joanas</h1>
+    <h2> Elas são de várias cores como por exemplos:</h2>
+    <br>
+    <br>
+    
   </div>
 </template>
 
@@ -41,6 +19,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+P{
+  font-size: 23px;
+}
+h1{
+  color: blueviolet;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -55,4 +39,111 @@ li {
 a {
   color: #42b983;
 }
+* {
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+}
+iframe{
+
+    display: table;
+    margin: auto;
+}
+table{
+    display: table;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 6px;
+}
+
+.secao {
+    display: flex;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 25%;
+}
+.subsecao {
+    width: 100%;
+}
+.imagemUnica {
+    display: table;
+    width: 100%;
+}
+.imagemNaoUnica {
+    width: 100%;
+}
+
+
+@media only screen and (max-device-width: 700px) {
+    .secao {
+        display: block;
+    }
+   .img1{
+    border: 2px;
+    height: 300px;
+        width: 30%;
+   }
+   .img2{
+
+    height: 300px;
+        width: 30%;
+    
+   }
+   .img3{
+    height: 300px;
+    width: 30%;
+   }
+    h2{
+        text-align: center;
+        font-size: 23px;
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+
+    iframe{
+        width: 43%;
+        height: 350px;
+    }
+    table{
+        font-size: 20px;
+        width: 40%;
+    height: 20px;
+    }
+}@media only screen and (max-device-width: 300px) {
+    
+    img{ 
+        height: 30%;
+        width: 30%;
+    }
+    h2{
+        text-align: center;
+        font-size: 60px;
+    }
+    h1{
+        text-align: center;
+        font-size: 80px;
+    }
+           
+    iframe{
+        width: 70%;
+        height: 350px;
+    }
+    table{
+        font-size: 60px;
+        width: 90%;
+    height: 480px;
+    }
+}
+
 </style>
