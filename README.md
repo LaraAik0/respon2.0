@@ -1,3 +1,5 @@
+Tentei implementarcom lazyloaging e comprimir as imagens porém, não deu certo
+
 # projeto
 
 ## Project setup
