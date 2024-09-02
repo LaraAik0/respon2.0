@@ -17,7 +17,7 @@
     <tr>
         <td>Video sobre Joaninhas</td>
         <td>Informativo</td>
-        <td><img width="60px" loading="lazy" src="@/assets/e.jpg"/></td>
+        <td><img width="60px" loading="lazy" src="@/assets/e1.jpg"/></td>
     </tr>
 </table>
 </template>
