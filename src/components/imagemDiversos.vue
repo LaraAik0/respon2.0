@@ -2,15 +2,21 @@
     <div>
         <div class="secao">
             <div class="subsecao">
-                <img class="imagemUnica" src="@/assets/azul.jpg" />
+                <img  width="60%" class="imagemUnica"  loading="lazy" src="@/assets/a.jpg" />
             </div>
         </div>
         <div class="secao">
             <div class="subsecao">
-                <img class="imagemNaoUnica" src="@/assets/preta.jpg" />
+                <img  width="60%" class="imagemNaoUnica" loading="lazy" src="@/assets/b.jpg" />
             </div>
             <div class="subsecao">
-                <img class="imagemNaoUnica" src="@/assets/vermelha.jpg" />
+                <img width="60%" class="imagemNaoUnica" loading="lazy" src="@/assets/c.jpg" />
+            </div>
+            <div class="subsecao" >
+                <img width="60%" class="imagemNaoUnica" loading="lazy" src="@/assets/d.jpg" />
+            </div>
+            <div class="subsecao">
+                <img  width="60%" height="680px" loading="lazy" class="imagemNaoUnica" src="@/assets/e.jpg" />
             </div>
         </div>
     </div>

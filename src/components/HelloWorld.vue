@@ -80,6 +80,8 @@ td {
 }
 .imagemNaoUnica {
     width: 100%;
+    
+    
 }
 
 
