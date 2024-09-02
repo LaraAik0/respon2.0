@@ -1,3 +1,6 @@
+Está funcionando normalmente no local host mas no vercel não está funcionando
+
+
 # projeto
 
 ## Project setup
